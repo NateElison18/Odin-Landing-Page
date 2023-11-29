@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    margin: 0px;
 }
 
 ul {
@@ -24,6 +25,7 @@ a {
 .action-container,
 .footer {
     display: flex;
+    margin-left: 0px;
 }
 
 .header,
@@ -37,6 +39,8 @@ a {
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
+    margin: 0px;
+    width: 100%;
 }
 
 .links-and-logo,
@@ -133,7 +137,7 @@ button {
     width: 150px;
     height: 150px;
     border: #3882F6;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 8px;
     flex-shrink: 0;
@@ -143,6 +147,42 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    max-width: 600px;
+
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.inner-action-container {
+    display: flex;
+    justify-content: center;
+    max-width: 600;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 64px;
+    padding-left: 64px;
+    margin: 64px;
+    border-radius: 6px;
+
+
 }
 
 .footer {
